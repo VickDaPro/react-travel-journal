@@ -15,12 +15,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border: 1px solid black;
   position: relative;
   font-family: "Roboto", sans-serif;
 }
 
-/* Stylying Header Component */
+/* Styling Header Component */
 
 .header {
   display: flex;
@@ -40,4 +41,29 @@
   text-align: center;
   color: #fff;
   font-size: 20px;
+}
+
+/* Styling Card Component */
+
+.card {
+  /* position: absolute; */
+  width: 470px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+img {
+  /* position: absolute; */
+  width: 126px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.date > p {
+  display: inline;
 }
