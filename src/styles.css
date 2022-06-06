@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@500&family=Oxygen&family=Poppins:wght@400;500;600&family=Roboto&display=swap");
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+/* App styles */
+.App {
+  width: 550px;
+  height: 704px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Stylying Header Component */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background-color: #f55a5a;
+}
+
+.header > h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
